@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Counter</title>
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,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">
+
+
+<style>
+    *{
+        background-color: rgb(223, 202, 198);
+        box-sizing: border-box;
+    }
+    h1{
+        text-align: center;
+        font-weight: bolder;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 60px;
+        color: rgb(136, 172, 238);
+       /* animation-timing-function: linear;
+        animation: mymove 5s infinite;*/
+    }
+   /* @keyframes h1 {
+        from {left: 0px;}
+        to {left: 300px;} }*/
+    
+      
+    #center{
+        /*border: 3px rgb(24, 142, 238);*/
+        /*border-style: dashed;*/
+        display:grid;
+        
+        /*padding:10px ;
+        margin: 20px; 
+        width: 100px;*/
+        text-align: center;
+        border-radius: 5px;
+        color: rgb(15, 12, 15);
+        font-weight: bolder;
+        font-size: 200%;
+    }
+    
+    .abc{
+        padding:10px;
+        margin: 20px;
+        /*border: 5px solid #FFFF00;*/
+        text-align: center;
+    }
+    button{
+        border: 5px rgb(150, 148, 148);
+        padding:10px;
+        margin: 20px;
+        border-radius: 8px;
+        color: white;
+        font-weight: bolder;
+        font-size: 150%;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuzx38VQ4GWnus-yc6vQHKwYqXajdZaK0vZQ&usqp=CAU");
+    }
+    button:hover {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjM5CTCoDAH-rb3ZuKSFtyZ-VxFRPUC_oFHUnxC6nokJJ7nHvxRONkrrgm6nBbvB9v9Zk&usqp=CAU");
+            opacity: 0.6;
+            color: black;
+            transition-duration: 0.6s;
+            box-shadow: 0 12px 16px 0 rgba(78, 75, 75, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            cursor: pointer;
+        }
+  
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(136, 172, 238);
+    
+}
+.p1{
+float: left;
+background-color: rgb(136, 172, 238);
+color: rgb(240, 231, 220);
+font-weight: bold;
+}
+.p2{
+float: right;
+background-color: rgb(136, 172, 238);
+color: rgb(240, 231, 220);
+font-weight: bold;
+}
+           
+</style>
+</head>
+
+<body>
+    <h1>Lets Count!</h1>
+
+    <p id="center">0</p>
+
+    <div class="abc">
+        <button class="math" onclick="add()">+</button>
+        <button class="math" onclick="reset()">RESET</button>
+        <button class="math" onclick="sub()">-</button>
+    </div>
+    <div class="footer">
+        <p class="p1"> Copyright: 2022</p>
+        <p class="p2">Author: Nishtha Prakash </p>
+          
+    </div>
+
+    <script>
+        var sum = 0;
+        document.getElementById("center").innerHTML = sum;
+        function add() {
+            sum = sum + 1;
+            document.getElementById("center").innerHTML = sum;
+
+        }
+
+        function reset() {
+            sum = 0;
+            document.getElementById("center").innerHTML = sum;
+        }
+
+        function sub() {
+            sum = sum - 1;
+            document.getElementById("center").innerHTML = sum;
+
+        }
+    </script>
+
+</body>
+
+</html>
